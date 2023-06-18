@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+/* Main Website */
+
+body{
+    background-color: #940212;
+    text-align: center;
+}
+
+.big-heading{
+    color: #fff;
+    font-size: 7rem;
+    filter: drop-shadow(10px 8px 4px #000);
+    text-align: center;
+}
+
+.dices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dices img{
+    width: 29%;
+}
+
+.inside{
+    margin-top: 10rem;
+}
+
+.para{
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+    color: #fff;
+}
+
+footer{
+    font-family: 'Kalam', cursive;
+    color: white;
+    position: relative;
+    top: 8rem;
+}
